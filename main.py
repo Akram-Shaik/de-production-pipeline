@@ -33,6 +33,19 @@ def run_my_first_pipeline():
     # Clean name
     df['name'].str.strip()
     df['name'].str.title()
+    
+    #Second piece of code starts here group by()
+    dept_summary = df.groupby('department')['salary'].sum().reset_index()
+
+    # 2. LOAD: Save this summary into a NEW SQL table
+    dept_summary.to_sql('department_stats', conn, if_exists='replace', index=False)
+
+    print("✅ Department summary created and loaded to SQL.")
+
+    # 3. VERIFY: Query the new table
+    print("\n--- Department Salary Spend ---")
+    stats_report = pd.read_sql_query("SELECT * FROM department_stats", conn)
+    print(stats_report)
 
     conn.close()
     print("\n🏆 Pipeline finished successfully!")
