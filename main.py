@@ -47,6 +47,7 @@ def run_my_first_pipeline():
     stats_report = pd.read_sql_query("SELECT * FROM department_stats", conn)
     print(stats_report)
 
+
     conn.close()
     print("\n🏆 Pipeline finished successfully!")
 
