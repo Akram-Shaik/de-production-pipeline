@@ -1,0 +1,50 @@
+2026-03-25 14:20:15,796 - root - 🚀 Pipeline Started: Extracting Data...
+2026-03-25 14:20:15,814 - root - ❌ Critical Pipeline Failure: 'name'
+2026-03-25 14:23:08,504 - root - 🚀 Pipeline Started: Extracting Data...
+2026-03-25 14:23:08,504 - root - 📊 Columns found in data.csv: ['id', 'name', 'department', 'salary']
+2026-03-25 14:23:08,504 - root - 📊 Columns found in departments.csv: ['dept_id', 'dept_name', 'manager']
+2026-03-25 14:23:08,504 - root - ❌ Critical Pipeline Failure: 'name'
+2026-03-25 14:27:18,417 - root - 🚀 Pipeline Started: Extracting Data...
+2026-03-25 14:27:18,423 - root - 📊 Columns found in data.csv: ['id', 'name', 'department', 'salary']
+2026-03-25 14:27:18,423 - root - 📊 Columns found in departments.csv: ['dept_id', 'dept_name', 'manager']
+2026-03-25 14:27:18,423 - root - ❌ Critical Pipeline Failure: 'name'
+2026-03-25 14:29:02,349 - root - 🚀 Pipeline Started: Extracting Data...
+2026-03-25 14:29:02,360 - root - 📊 Columns found in data.csv: ['id', 'name', 'department', 'salary']
+2026-03-25 14:29:02,366 - root - 📊 Columns found in departments.csv: ['dept_id', 'dept_name', 'manager']
+2026-03-25 14:29:02,366 - root - ❌ Critical Pipeline Failure: 'name'
+2026-03-25 14:29:38,119 - root - 🚀 Pipeline Started: Extracting Data...
+2026-03-25 14:29:38,135 - root - 📊 Columns found in data.csv: ['id', 'name', 'department', 'salary']
+2026-03-25 14:29:38,135 - root - 📊 Columns found in departments.csv: ['dept_id', 'dept_name', 'manager']
+2026-03-25 14:29:38,135 - root - ❌ Critical Pipeline Failure: 'name'
+2026-03-25 14:31:28,125 - root - 🚀 Pipeline Started: Extracting Data...
+2026-03-25 14:31:28,125 - root - 📊 Columns found in data.csv: ['id', 'name', 'department', 'salary']
+2026-03-25 14:31:28,125 - root - 📊 Columns found in departments.csv: ['dept_id', 'dept_name', 'manager']
+2026-03-25 14:31:28,125 - root - ❌ Critical Pipeline Failure: 'name'
+2026-03-25 14:33:52,324 - root - 🚀 Pipeline Started: Extracting Data...
+2026-03-25 14:33:52,341 - root - 📊 Columns found in data.csv: ['id', 'name', 'department', 'salary']
+2026-03-25 14:33:52,346 - root - 📊 Columns found in departments.csv: ['dept_id', 'dept_name', 'manager']
+2026-03-25 14:33:52,347 - root - ❌ Critical Pipeline Failure: 'name'
+2026-03-25 14:36:02,488 - root - 🚀 Pipeline Started: Extracting Data...
+2026-03-25 14:36:02,493 - root - 📊 Columns found in data.csv: ['id', 'name', 'department', 'salary']
+2026-03-25 14:36:02,495 - root - 📊 Columns found in departments.csv: ['dept_id', 'dept_name', 'manager']
+2026-03-25 14:36:02,497 - root - DEBUG: df_employees columns are: ['id', 'name', 'department', 'salary']
+2026-03-25 14:36:02,497 - root - DEBUG: df_dept columns are: ['dept_id', 'dept_name', 'manager']
+2026-03-25 14:36:02,548 - root - ✅ Pipeline Success: Data pushed to employee_master.
+2026-03-25 14:36:02,548 - root - 🔒 Connection Closed: Resources released.
+2026-03-25 14:36:08,574 - root - 🚀 Pipeline Started: Extracting Data...
+2026-03-25 14:36:08,574 - root - 📊 Columns found in data.csv: ['id', 'name', 'department', 'salary']
+2026-03-25 14:36:08,574 - root - 📊 Columns found in departments.csv: ['dept_id', 'dept_name', 'manager']
+2026-03-25 14:36:08,574 - root - DEBUG: df_employees columns are: ['id', 'name', 'department', 'salary']
+2026-03-25 14:36:08,574 - root - DEBUG: df_dept columns are: ['dept_id', 'dept_name', 'manager']
+2026-03-25 14:36:08,594 - root - ⚠️ Data Integrity Issue: UNIQUE constraint failed: employee_master.id (Likely a duplicate ID)
+2026-03-25 14:36:08,594 - root - 🔒 Connection Closed: Resources released.
+2026-03-25 14:40:10,766 - root - 🚀 Pipeline Started: Extracting Data...
+2026-03-25 14:40:10,769 - root - 📊 Columns found in data.csv: ['id', 'name', 'department', 'salary']
+2026-03-25 14:40:10,771 - root - 📊 Columns found in departments.csv: ['dept_id', 'dept_name', 'manager']
+2026-03-25 14:40:10,777 - root - ⚠️ Data Integrity Issue: UNIQUE constraint failed: employee_master.id (Likely a duplicate ID)
+2026-03-25 14:40:10,777 - root - 🔒 Connection Closed: Resources released.
+2026-03-25 14:45:37,857 - root - 🚀 Pipeline Started: Extracting Data...
+2026-03-25 14:45:37,858 - root - 📊 Columns found in data.csv: ['id', 'name', 'department', 'salary']
+2026-03-25 14:45:37,866 - root - 📊 Columns found in departments.csv: ['dept_id', 'dept_name', 'manager']
+2026-03-25 14:45:37,871 - root - ⚠️ Data Integrity Issue: UNIQUE constraint failed: employee_master.id (Likely a duplicate ID)
+2026-03-25 14:45:37,871 - root - 🔒 Connection Closed: Resources released.
