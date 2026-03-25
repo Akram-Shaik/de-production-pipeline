@@ -76,7 +76,7 @@ def run_my_first_pipeline():
         print(f"❌ STOP! Something went wrong: {e}")
         print("💡 Hint: Check if your 'data.csv' is missing a column or has a typo.")
 
-        conn.close()
+    conn.close()
     print("\n🏆 Pipeline finished successfully!")
 
 def run_second_pipeline():
