@@ -21,3 +21,6 @@ venv/
 # Personal VS Code settings that shouldn't be shared
 .vscode/
 .DS_Store
+
+# Logs
+*.log
