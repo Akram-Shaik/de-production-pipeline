@@ -48,3 +48,13 @@
 2026-03-25 14:45:37,866 - root - 📊 Columns found in departments.csv: ['dept_id', 'dept_name', 'manager']
 2026-03-25 14:45:37,871 - root - ⚠️ Data Integrity Issue: UNIQUE constraint failed: employee_master.id (Likely a duplicate ID)
 2026-03-25 14:45:37,871 - root - 🔒 Connection Closed: Resources released.
+2026-03-26 15:52:58,692 - root - 🚀 Pipeline Started: Extracting Data...
+2026-03-26 15:52:58,712 - root - 📊 Columns found in data.csv: ['id', 'name', 'department', 'salary']
+2026-03-26 15:52:58,716 - root - 📊 Columns found in departments.csv: ['dept_id', 'dept_name', 'manager']
+2026-03-26 15:52:58,747 - root - ✅ Pipeline Success: Data pushed to employee_master.
+2026-03-26 15:52:58,748 - root - 🔒 Connection Closed: Resources released.
+2026-03-26 15:53:09,453 - root - 🚀 Pipeline Started: Extracting Data...
+2026-03-26 15:53:09,453 - root - 📊 Columns found in data.csv: ['id', 'name', 'department', 'salary']
+2026-03-26 15:53:09,469 - root - 📊 Columns found in departments.csv: ['dept_id', 'dept_name', 'manager']
+2026-03-26 15:53:09,476 - root - ⚠️ Data Integrity Issue: UNIQUE constraint failed: employee_master.id (Likely a duplicate ID)
+2026-03-26 15:53:09,476 - root - 🔒 Connection Closed: Resources released.
